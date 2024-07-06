@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar */
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+    padding: 15px;
+    height: 8vh;
+    
+}
+/* .navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(red, green, blue, alpha);
+    height: 100%;
+    width: 100%;
+    z-index: -1; 
+}  */
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    font-size:15px ;
+    margin-right: 24px;
+
+}
+.h1{
+    font-size: 100%;
+    font-style: italic;
+    justify-content: center;
+    height: 50px;
+    color: white;
+}
+header ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color:purple ;
+}
+header ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(red, green, blue, alpha);
+    background-image:url( dark-circle-background-design-website-poster-corporate-identity-brochure-presentation-template-futuristic-geometric-background_206325-1645.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    
+}
+/* .home::before{
+    content: "";
+    
+    top: 0;
+    left: 0;
+    background: url(20619744.jpg);no repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; */
+    
+
+}
